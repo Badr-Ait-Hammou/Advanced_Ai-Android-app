@@ -10,18 +10,26 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/signin"
-        android:text="AHSMART"
+        android:id="@+id/welcome"
+        android:text="Welcome to"
         android:textColor="@color/white"
-        android:textSize="35dp"
-        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:layout_margin="40dp"
         android:textStyle="bold"
         android:gravity="center"/>
     <ImageView
+        android:layout_width="500px"
+        android:layout_height="170dp"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/mrbadrbigtrlogo" />
+    <ImageView
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:layout_marginTop="40dp"
-        android:layout_below="@id/signin"
+        android:layout_marginTop="200dp"
+
         android:layout_centerHorizontal="true"
         android:src="@drawable/untitled_design__1_"/>
 
