@@ -14,11 +14,11 @@
     >
 
     <ImageView
-        android:layout_width="500px"
-        android:layout_height="170dp"
-        android:layout_margin="8dp"
+        android:layout_width="800px"
+        android:layout_height="250dp"
+        android:layout_margin="0dp"
         android:layout_marginBottom="15dp"
-        android:src="@drawable/mrbadrbigtrlogo" />
+        android:src="@drawable/aithamtr" />
 
 </LinearLayout>
 
@@ -30,7 +30,7 @@
         android:textColor="@color/white"
         android:textSize="25dp"
         android:layout_marginBottom="40dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="150dp"
         android:textStyle="normal"
         android:gravity="center"
         />
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
 
 
-        android:text="sign up?"
+        android:text="sign up"
         android:textColor="@color/black"
         android:textSize="15dp"
         android:textStyle="bold" />
@@ -146,16 +146,20 @@
             android:layout_width="48dp"
             android:layout_height="47dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+
             android:src="@drawable/twitter3d"/>
         <ImageView
             android:layout_width="48dp"
             android:layout_height="45dp"
             android:layout_marginBottom="10dp"
+
             android:src="@drawable/google3d"/>
         <ImageView
             android:layout_width="48dp"
             android:layout_height="47dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
             android:src="@drawable/facebook3d"/>
 
 

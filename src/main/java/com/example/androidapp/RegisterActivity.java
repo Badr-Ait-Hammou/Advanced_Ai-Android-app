@@ -38,6 +38,7 @@ public class RegisterActivity extends AppCompatActivity {
         password_txt=findViewById(R.id.password);
         register_btn.setOnClickListener(v -> createacc());
         gotologintext.setOnClickListener(v -> startActivity(new Intent(RegisterActivity.this,LoginActivity.class)));
+
     }
     public void createacc(){
         String email=email_txt.getText().toString();
@@ -46,9 +47,9 @@ public class RegisterActivity extends AppCompatActivity {
       //  String firstname=firstname_txt.getText().toString();
       //  String lastname=lastname_txt.getText().toString();
         boolean confirmed=confirmdata(email,password,confirmpwd);
-        if(!confirmed){
+       /* if(!confirmed){
             return;
-        }
+        }*/
         createaccinfirb(email,password);
     }
     boolean confirmdata(String email,String password,String confirmpwd){

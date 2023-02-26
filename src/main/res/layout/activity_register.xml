@@ -15,11 +15,11 @@
         >
 
         <ImageView
-            android:layout_width="500px"
-            android:layout_height="170dp"
-            android:layout_margin="20dp"
+            android:layout_width="800px"
+            android:layout_height="250dp"
+            android:layout_margin="0dp"
             android:layout_marginBottom="15dp"
-            android:src="@drawable/mrbadrbigtrlogo" />
+            android:src="@drawable/aithamtr" />
 
     </LinearLayout>
     <TextView

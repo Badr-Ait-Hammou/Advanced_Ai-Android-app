@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AiActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        android:layout_above="@id/bottomlayout"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/welcometxt"
+        android:layout_centerInParent="true"
+        android:text="Welcome to Mr_Badr Advanced AI"
+        android:gravity="center"
+        android:textSize="40dp"
+
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:padding="8dp"
+    android:id="@+id/bottomlayout">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messagetext"
+        android:layout_centerInParent="true"
+        android:hint="Write your question"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:layout_toLeftOf="@id/sendbtn"
+        android:background="@drawable/roundedcorner"
+        />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/sendbtn"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:padding="8dp"
+        android:src="@drawable/baseline_send_24"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+
+        />
+</RelativeLayout>
+
+
+</RelativeLayout>
