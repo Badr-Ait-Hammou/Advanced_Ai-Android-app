@@ -1,4 +1,5 @@
  advanced ai android application
+ ******PLEASE NOTE THAT , you have to get a new api key from chatgpt and place it on the old one , because of the chatgpt's policy the api key becomes useless or terminated once the project is available on github ***************** 
  login and registration interfaces work well
  i have connected the app with firebase
  ![android2](https://user-images.githubusercontent.com/97026750/221845293-7bc6d368-1056-4817-a6c0-0504fd797eeb.png)
